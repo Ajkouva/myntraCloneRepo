@@ -99,6 +99,12 @@ header{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.cat_item img:hover{
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .sale_item{
     width: 250px;
 }
@@ -126,9 +132,12 @@ header{
     text-decoration: none;
     padding-bottom: 5px;
 }
+.footer_column a:hover{
+    color: #f54e77;
+}
 
 .copyright {
     color: #94969f;
     text-align: end;
     padding: 15px;
-}
+}   
